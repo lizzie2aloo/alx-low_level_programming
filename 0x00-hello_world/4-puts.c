@@ -1,4 +1,4 @@
-Mkdir stdio.h
+gcc
 #include <stdio.h>
 
 /**
