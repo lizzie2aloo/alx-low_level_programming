@@ -1,16 +1,16 @@
-#include <studio.h>
+Mkdir stdio.h
+#include <stdio.h>
 
 /**
- * main -starting point
+ * main-starting point
  *
- * Description: Creating a C program that prints with the function put
+ * Description: Creating a program that prints using the put function
  *
- * Return: 0
+ * return: 0
  */
 
-int main()
+int main ()
 {
-
 	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	return (0)
 }
