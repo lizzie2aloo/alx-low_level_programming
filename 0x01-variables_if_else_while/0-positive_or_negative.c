@@ -1,11 +1,12 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 
 /**
  * main - Entry point
  *
- * Description: Print value of n status ; zero, positive or negative
+ * Description: print value of n status; zero, positive or negative
  *
  * Return: Always 0 (Success)
  */
@@ -16,13 +17,13 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	/*your code goes there */
-	if (n > 0)
+	/* my code comes here*/
+	if (n>0)
 		printf("%i is positive\n", n);
 	else if (n == 0)
 		printf("%i is zero\n", n);
-	else 
+	else
 		printf("%i is negative\n", n);
-	
+
 	return (0);
 }
