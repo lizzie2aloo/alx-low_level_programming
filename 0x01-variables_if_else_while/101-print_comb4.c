@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print all possible different 
+ * Description: print all possible different
  * combinations of two digits.
  *
  * Return: Always 0 (Success)
@@ -45,5 +45,5 @@ int main(void)
 	}
 	putchar('\n');
 
-	return (0);
-}	
+return (0);
+}
