@@ -1,18 +1,23 @@
 #include <stdio.h>
+
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * 
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ * 
+ */
+
 int main(void)
 {
-	int s;
-	s = 122;
-	while (s >= 97)
+	char ch = 'z';
+
+	while (ch >= 'a')
 	{
-		putchar(s);
-		s--;
+		putchar(ch);
+		--ch;
 	}
 	putchar('\n');
+
 	return (0);
 }
