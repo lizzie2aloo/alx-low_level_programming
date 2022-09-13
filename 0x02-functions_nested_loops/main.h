@@ -1,7 +1,8 @@
-#ifndef MAIN_H
-#define MAIN_H
 
-#include <stdio.h>
+/**
+ * File: main.h
+ * Description: header file with declaration functions
+ */
 
 int _putchar(char c);
 void print_alphabet(void);
@@ -15,5 +16,3 @@ void jack_bauer(void);
 void times_table(void);
 int add(int, int);
 void print_to_98(int n);
-
-#endif /* MAIN_H */
