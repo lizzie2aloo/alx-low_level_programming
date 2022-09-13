@@ -6,14 +6,11 @@
  * for both lowercase or uppercase
  *
  * @c: character to be checked
- *
- * Return: 1 or 0
+ * Return: 0 or 1
  */
-
 int _isalpha(int c)
 {
-	if((c >= 65 && c <= 90) ||
-	   (c >= 97 && c >= 122))
+	if((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 		return (1);
 
 	return (0);
