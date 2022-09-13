@@ -2,7 +2,9 @@
 
 /**
  * print_alphabets- Functions that print alphabets in lowercase
- * the alphabets a-z
+ *
+ * Desscription: the alphabets a-z
+ *
  */
 
 void print_alphabet(void)
