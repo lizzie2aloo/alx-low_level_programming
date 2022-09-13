@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	char str[10000];
-	int ch, i , n = 0;
+	char str[] = "_putchar";
+	int ch;
 
-	for (1=0; 1 < n; ++1)
-		_putchar(str[i]);
-
+	for (ch = 0; ch < 8; ++ch)
+		_putchar(str[ch]);
 	_putchar('\n');
+
 	return (0);
 }
