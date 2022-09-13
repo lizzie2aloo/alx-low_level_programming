@@ -3,7 +3,7 @@
 /**
  * print_alphabets- Functions that print alphabets in lowercase
  *
- * Description: the alphabets a-z in lowercase
+ * Description: print the alphabets a-z in lowercase
  *
  * Return: Always 0 (success)
  */
