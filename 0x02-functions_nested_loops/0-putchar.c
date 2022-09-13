@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
+ * 
  * Description - A program that prints putchar
  *
  * Return always 0 (successful)
  */
 
-int main(void)
+int print_putchar(void)
 {
 	char str[] = "_putchar";
 	int ch;
