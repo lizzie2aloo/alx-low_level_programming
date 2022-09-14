@@ -13,7 +13,7 @@ int main(void)
 	unsigned long fib1_h1, fib1_h2, fib2_h1, fib2_h2;
 	unsigned long h1, h2;
 
-	for (inc = 0; inc <92; inc++)
+	for (inc = 0; inc < 92; inc++)
 	{
 		fib3 = fib1 + fib2;
 		printf("%lu, ", fib3);
