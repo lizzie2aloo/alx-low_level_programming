@@ -3,12 +3,12 @@
 /**
  * print_alphabet - Function that prints alphabet
  *
- * Description: prints in lowercase
+ * Description: prints alphabets in lowercase
  * Return: Always 0
  */
 void print_alphabet(void)
 {
-	int letter;
+	char letter = 'a';
 
 	for (letter = 'a'; letter <= 'z'; letter+++)
 	{
