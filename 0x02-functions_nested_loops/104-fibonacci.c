@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	int count
-		unsigned long fib1 = 0, fib2 = 1, fib3;
+	int inc;
+	unsigned long fib1 = 0, fib2 = 1, fib3;
 	unsigned long fib1_h1, fib1_h2, fib2_h1, fib2_h2;
 	unsigned long h1, h2;
 
-	for (count = 0; count <92; count++)
+	for (inc = 0; inc <92; inc++)
 	{
 		fib3 = fib1 + fib2;
 		printf("%lu, ", fib3);
@@ -24,7 +24,7 @@ int main(void)
 	fib2_h1 = fib2 / 10000000000;
 	fib1_h2 = fib1 % 10000000000;
 	fib2_h2 = fib2 % 10000000000;
-	for (count = 93; count < 99; count++)
+	for (inc = 93; inc < 99; inc++)
 	{
 		h1 = fib1_h1 + fib2_h1;
 		h2 = fib1_h2 + fib2_h2;
@@ -34,7 +34,7 @@ int main(void)
 			h2 %= 10000000000;
 		}
 		printf("%lu%lu", h1, h2);
-		if (count != 98)
+		if (inc != 98)
 			printf(", ");
 
 		fib1_h1 = fib2_h1;
