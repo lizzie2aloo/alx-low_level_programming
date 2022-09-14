@@ -2,8 +2,7 @@
 
 /**
  * main - Entry point
- *
- * Description: function that prints sum of even valued 
+ * Description: function that prints sum of even valued
  * of fibonacci numbers
  * Return: Always 0
  */
