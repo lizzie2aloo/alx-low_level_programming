@@ -1,12 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - print n to 98 counts
- * separated by comm,
- * followed by space 
- * and number should be printed in order
- *
- * @n: input
+ * followed by a new line
+ * @n: print from this number
  */
 
 void print_to_98(int n)
@@ -15,9 +13,9 @@ void print_to_98(int n)
 
 	if (n < 98)
 		for (count = n; count > 98; --count)
-			printf("%d, ", count);
+			printf("%d,", count);
 	else
 		for (count = n; count < 98; ++count)
-			printf("%d, ", count);
+			printf("%d,", count);
 	printf("98\n");
 }
