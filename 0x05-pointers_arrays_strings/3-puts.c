@@ -1,17 +1,14 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * _puts - function that prints a string
- * followed by a new line
- *
- * @str: string parameter to print
- * Return: 0
+ * _puts - prints a string,
+ * @str: string parameter to be printed
+ * Return: void
  */
 
 void _puts(char *str)
 {
 	while (*str)
 		_putchar(*str++);
-
 	_putchar('\n');
 }
