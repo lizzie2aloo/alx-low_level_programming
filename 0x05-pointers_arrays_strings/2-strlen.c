@@ -3,15 +3,16 @@
 /**
  * _strlen - returns the length of a string
  * @s: string parameter input
- * Return: Length of a spring
+ * Return: int
  */
 	
 int _strlen(char *s)
 {
-	int counter;
+	int count, inc;
 
-	for (counter = 0; *s != '/0'; ++s)
-		++counter;
+	inc = 0;
+	for (count = 0; s[count] != '/0'; ++count)
+		++inc;
 
-	return (counter);
+	return (inc);
 }
