@@ -1,15 +1,15 @@
 /**
- * _strlen - returns tge length of s string
+ * _strlen - returns the length of s string
  * @s: string parameter input
  * Return: Length of a spring
  */
 	
 int _strlen(char *s)
 {
-	char str[];
-	int = s
+	int counter;
 
-	for (s = 0; str[s] != '/0'; ++s);
+	for (counter = 0; *s != '/0'; ++s)
+		++counter;
 
-	return (s)
+	return +(counter);
 }
