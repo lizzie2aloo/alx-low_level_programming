@@ -1,8 +1,8 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * puts2 - prints every character of a string
- * @str: string parameter to be checked
+ * puts2 - prints every other character of a string
+ * @str: string parameter to check
  * Return: void
  */
 
