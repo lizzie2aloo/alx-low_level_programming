@@ -1,7 +1,10 @@
+#include "main.h"
+
 /**
  * print_rev - prints a string in reverse
- * @s: string parameter input
- * Return: 0
+ * followed by a new line
+ * @s: string parameter to be manipulated
+ * Return: void
  */
 
 void print_rev(char *s)
