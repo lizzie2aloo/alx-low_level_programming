@@ -1,10 +1,10 @@
-nclude "main.h"
+#include "main.h"
 
 /**
- * _strstr-locates a substring
- * @haystack:string to check occurence of needle
- * @needle:string to be checked.
- * Return:Returns a pointer to the beginning
+ * _strstr - a function that locates a substring
+ * @haystack: input string to search for matching substrings
+ *  @needle: substring to search for
+ *  Return: Returns a pointer to the beginning
  */
 
 char *_strstr(char *haystack, char *needle)
@@ -20,11 +20,13 @@ char *_strstr(char *haystack, char *needle)
 
 		if (haystack[i] == needle[i])
 		{
-			do {
+			do
+			{
 				if (needle[i + 1] == '\0')
 					return (haystack);
 				i++;
-			}while (haystack[i] == needle[i]);
+			}
+			while (haystack[i] == needle[i]);
 		}
 		haystack++;
 	}
