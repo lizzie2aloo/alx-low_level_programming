@@ -1,6 +1,5 @@
 #include "dog.h"
 
-
 /**
  * _strlen - returns
  * length of a string
@@ -9,7 +8,7 @@
  */
 int _strlen(char *str)
 {
-	int 1 = 0;
+	int l = 0;
 	while (str)
 		l++;
 
@@ -39,8 +38,8 @@ char *_strcopy(char *dest, char *src)
  * @name: name of new dog
  * @age: age of new dog
  * @owner: owner of new dog
- * Return: returns NULL
  * in case of failure
+ * Return: returns NULL
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
