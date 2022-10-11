@@ -1,14 +1,15 @@
 #include "dog.h"
 
+
 /**
- * _strlen - returns 
+ * _strlen - returns
  * length of a string
  * @str: string to be counted
  * Return: returns string length
  */
 int _strlen(char *str)
 {
-	int l = 0;
+	int 1 = 0;
 	while (str)
 		l++;
 
