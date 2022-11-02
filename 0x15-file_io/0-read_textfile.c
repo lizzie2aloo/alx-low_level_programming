@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -12,7 +12,6 @@ i#include "main.h"
  *
  * Return: actual number of letters it could read and print
  */
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
